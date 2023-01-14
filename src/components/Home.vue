@@ -38,7 +38,7 @@
       <h2 class="text-center text-primary mb-5">كيف يعمل الموقع</h2>
 
 
-      <div class="row g-5 py-5">
+      <div class="row  py-5">
 
         <div class="col-sm-6 col-md-4 text-center ">
           <div class="vstack gap-3 shadow-sm align-items-center p-3">
@@ -84,7 +84,7 @@
 
       <h2 class="text-center text-primary">إستكشف الخدمات</h2>
 
-      <div class="row my-5 py-5 g-5 text-center">
+      <div class="row my-5 py-5 gy-5 text-center">
 
         <div class="col-sm-6 col-md-4 col-lg-3" v-for="service in services">
             <i :class="`fa-light ${service.icon} fa-5x`"></i>
@@ -119,7 +119,7 @@
          <span class="align-self-center link-primary">عرض المزيد <i class ="fa-light fa-arrow-left"></i></span>
         </div>
 
-        <div class="row my-5 py-1 g-5 text-center">
+        <div class="row my-5 py-1 gy-5 text-center">
 
           <div class="col-sm-6 col-md-6 col-lg-3" v-for="deal in deal.services">
             <card
